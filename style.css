@@ -1,17 +1,15 @@
 body {
-  background-color: 33FFD7;
-  color: 7133FF;
-}
-
-.content {
-  float: left;
-  padding-left: 2em;
+  background-color: 338EFF;
+  color: black;
+  font-family: helvetica;
 }
 
 nav {
   height: 100%;
   width: 10em;
   float: left;
+  position: fixed;
+  padding-top: 1em;
 }
 
 nav a {
@@ -19,11 +17,47 @@ nav a {
   float: none;
   padding-top: 10px;
   padding-bottom: 10px;
-  border: 1px solid black;
   text-align: center;
   text-decoration: none;
+  color: black;
 }
 
 nav a:hover {
+  background-color: 335BFF;
+}
 
+.content {
+  padding-left: 11em;
+}
+
+.content h1 {
+
+}
+
+.content p {
+
+}
+
+.gallery {
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img {
+  border: 1px solid black;
+  object-fit: contain;
+  width: 45%;
+  margin: auto;
+}
+
+.img img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+p.desc {
+  text-align: center;
 }
